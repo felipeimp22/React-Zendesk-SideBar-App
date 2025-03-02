@@ -1,0 +1,31 @@
+{
+  "name": "Consulta de Bilhetes & Assistências",
+  "author": {
+    "name": "Zxperience",
+    "email": "contato@zxperience.com.br",
+    "url": "https://zxperience.com.br/"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "http://localhost:3000?type=sidebar",
+        "flexible": true
+      },
+      "new_ticket_sidebar": {
+        "url": "http://localhost:3000?type=sidebar",
+        "flexible": true
+      }
+    }
+  },
+  "version": "1.0.0",
+  "frameworkVersion": "2.0",
+  "parameters": [
+    {
+      "name": "api_base_url",
+      "required": true,
+      "default": "http://dominio_do_cliente.com/"
+    }
+  ]
+}

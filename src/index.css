@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9f9;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.radio-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  color: #2f3941;
+  min-width: 80px;
+  text-align: center;
+  height: 10px; 
+}
+
+.radio-label input {
+  display: none;
+}
+
+.radio-label:hover {
+  border-color: #007bff;
+}
+
+.radio-label input:checked + span {
+  background-color: transparent;
+}
+
+.radio-label input:checked ~ label,
+.radio-label.selected {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.radio-label input:checked ~ label,
+.radio-label.selected {
+  padding: 10px 20px;
+  height: 10px; 
+}
+
+

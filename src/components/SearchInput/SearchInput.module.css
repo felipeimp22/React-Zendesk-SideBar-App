@@ -1,0 +1,9 @@
+.main { 
+  display: flex; 
+  /* gap: 1px; */
+  margin-top: 6px 
+}
+
+.button {
+  width: 90px
+}
