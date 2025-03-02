@@ -46,15 +46,15 @@ During this step, you’ll need an **API Token** for authentication.
 Clone this repository and install dependencies:
 
 ```bash
-git clone https://github.com/felipeimp22/123.git
-cd 123
+git clone https://github.com/felipeimp22/React-Zendesk-SideBar-App
+cd React-Zendesk-SideBar-App
 npm install
 ```
 
 To start the development server, run:
 
 ```bash
-npm run dev
+npm run start
 ```
 
 🚨 **Ignore** the browser window that opens automatically! Our battlefield is elsewhere.
@@ -88,7 +88,7 @@ Press **Enter**, and your sidebar app shall be revealed! 🎉
 ## 📜 Additional Resources
 
 - [Official Zendesk Developer Docs](https://developer.zendesk.com/)
-- [Project Repository](https://github.com/felipeimp22/123)
+- [Project Repository](https://github.com/felipeimp22/React-Zendesk-SideBar-App)
 
 If you have questions or seek guidance, open an issue in this repository. May your code be clean and your customer support legendary! 🏰✨
 
